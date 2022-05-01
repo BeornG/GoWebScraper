@@ -5,3 +5,7 @@ You can import json to google sheets using Brad Jasper’s importJSON function h
 
 Or copy the generated file to the included parser  that is setup to read the example json the main generates
 
+Can also use the parserCLI:
+go run . get -all parses everything into terminal
+go run . convert -csv converts the json into .csv
+
